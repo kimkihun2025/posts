@@ -1,0 +1,39 @@
+<!-- index.html (포스트 목록 화면) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post List</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        max-width: 800px;
+      }
+      h1 {
+        color: #333;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        cursor: pointer;
+      }
+      li {
+        padding: 10px;
+        margin: 5px 0;
+        background: #f9f9f9;
+        border-radius: 5px;
+      }
+      li:hover {
+        background: #e0e0e0;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Post List</h1>
+    <ul id="post-list"></ul>
+    <script src="list.js"></script>
+  </body>
+</html>
